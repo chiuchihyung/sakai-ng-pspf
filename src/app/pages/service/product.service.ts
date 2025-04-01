@@ -27,121 +27,131 @@ export class ProductService {
                 id: '1000',
                 code: 'f230fh0g3',
                 name: 'Bamboo Watch',
-                description: 'Product Description',
+                description: '公教退撫新制112年7月新進公務人員改確定提撥制',
                 image: 'bamboo-watch.jpg',
                 price: 65,
                 category: 'Accessories',
                 quantity: 24,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1001',
                 code: 'nvklal433',
                 name: 'Black Watch',
-                description: 'Product Description',
+                description: '收繳平台操作畫面步驟及手冊',
                 image: 'black-watch.jpg',
                 price: 72,
                 category: 'Accessories',
                 quantity: 61,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1002',
                 code: 'zz21cz3c1',
                 name: 'Blue Band',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔',
                 image: 'blue-band.jpg',
                 price: 79,
                 category: 'Fitness',
                 quantity: 2,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1003',
                 code: '244wgerg2',
                 name: 'Blue T-Shirt',
-                description: 'Product Description',
+                description: '常見QA問答集',
                 image: 'blue-t-shirt.jpg',
                 price: 29,
                 category: 'Clothing',
                 quantity: 25,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1004',
                 code: 'h456wer53',
                 name: 'Bracelet',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔2',
                 image: 'bracelet.jpg',
                 price: 15,
                 category: 'Accessories',
                 quantity: 73,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1005',
                 code: 'av2231fwg',
                 name: 'Brown Purse',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔3',
                 image: 'brown-purse.jpg',
                 price: 120,
                 category: 'Accessories',
                 quantity: 0,
                 inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1006',
                 code: 'bib36pfvm',
                 name: 'Chakra Bracelet',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔4',
                 image: 'chakra-bracelet.jpg',
                 price: 32,
                 category: 'Accessories',
                 quantity: 5,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1007',
                 code: 'mbvjkgip5',
                 name: 'Galaxy Earrings',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔5',
                 image: 'galaxy-earrings.jpg',
                 price: 34,
                 category: 'Accessories',
                 quantity: 23,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1008',
                 code: 'vbb124btr',
                 name: 'Game Controller',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔6',
                 image: 'game-controller.jpg',
                 price: 99,
                 category: 'Electronics',
                 quantity: 2,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1009',
                 code: 'cm230f032',
                 name: 'Gaming Set',
-                description: 'Product Description',
+                description: '收繳平台服務重要功能說明影音檔7',
                 image: 'gaming-set.jpg',
                 price: 299,
                 category: 'Electronics',
                 quantity: 63,
                 inventoryStatus: 'INSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1010',
@@ -153,7 +163,8 @@ export class ProductService {
                 category: 'Accessories',
                 quantity: 0,
                 inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1011',
@@ -165,7 +176,8 @@ export class ProductService {
                 category: 'Electronics',
                 quantity: 23,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1012',
@@ -177,7 +189,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 74,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1013',
@@ -189,7 +202,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 0,
                 inventoryStatus: 'OUTOFSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1014',
@@ -201,7 +215,8 @@ export class ProductService {
                 category: 'Electronics',
                 quantity: 8,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1015',
@@ -213,7 +228,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 34,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1016',
@@ -225,7 +241,8 @@ export class ProductService {
                 category: 'Fitness',
                 quantity: 12,
                 inventoryStatus: 'INSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1017',
@@ -237,7 +254,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 42,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1018',
@@ -249,7 +267,8 @@ export class ProductService {
                 category: 'Accessories',
                 quantity: 41,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1019',
@@ -261,7 +280,8 @@ export class ProductService {
                 category: 'Fitness',
                 quantity: 63,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1020',
@@ -273,7 +293,8 @@ export class ProductService {
                 category: 'Accessories',
                 quantity: 0,
                 inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1021',
@@ -285,7 +306,8 @@ export class ProductService {
                 category: 'Fitness',
                 quantity: 6,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1022',
@@ -297,7 +319,8 @@ export class ProductService {
                 category: 'Accessories',
                 quantity: 62,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1023',
@@ -309,7 +332,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 2,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1024',
@@ -321,7 +345,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 0,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1025',
@@ -333,7 +358,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 52,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                date: '2020-09-13'
             },
             {
                 id: '1026',
@@ -345,7 +371,8 @@ export class ProductService {
                 category: 'Clothing',
                 quantity: 3,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1027',
@@ -357,7 +384,8 @@ export class ProductService {
                 category: 'Electronics',
                 quantity: 35,
                 inventoryStatus: 'INSTOCK',
-                rating: 3
+                rating: 3,
+                date: '2020-09-13'
             },
             {
                 id: '1028',
@@ -369,7 +397,8 @@ export class ProductService {
                 category: 'Fitness',
                 quantity: 15,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+                date: '2020-09-13'
             },
             {
                 id: '1029',
@@ -381,7 +410,8 @@ export class ProductService {
                 category: 'Fitness',
                 quantity: 25,
                 inventoryStatus: 'INSTOCK',
-                rating: 8
+                rating: 8,
+                date: '2020-09-13'
             }
         ];
     }
