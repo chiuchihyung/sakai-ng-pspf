@@ -19,6 +19,9 @@ import { InputIcon } from 'primeng/inputicon';
         <div class="card mt-[108px] !-mb-8 flex text-2xl">
             <ul class="flex">
                 <li class="mr-[50px]">
+                    <button class="layout-menu-button layout-topbar-action" (click)="layoutService.onMenuToggle()">
+                        <i class="pi pi-bars"></i>
+                     </button>
                     <a>
                         <span>
                         繳納機關 [ 201000000A 中央研究院 ]

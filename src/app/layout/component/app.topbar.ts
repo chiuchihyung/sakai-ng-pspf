@@ -12,9 +12,6 @@ import { LayoutService } from '../service/layout.service';
     imports: [RouterModule, CommonModule, StyleClassModule, AppConfigurator],
     template: ` <div class="layout-topbar" style="background-color: #007c7c;">
         <div class="layout-topbar-logo-container">
-            <button class="layout-menu-button layout-topbar-action" (click)="layoutService.onMenuToggle()">
-                <i class="pi pi-bars"></i>
-            </button>
             <ul class="inline-flex mt-auto">
                 <li class="mr-[7px]">
                     <a class="layout-topbar-logo" routerLink="/">
