@@ -16,14 +16,14 @@ import { InputIcon } from 'primeng/inputicon';
     imports: [CommonModule, AppTopbar, AppSidebar, RouterModule, AppFooter, MenubarModule, IconField, InputIcon],
     template: `<div class="layout-wrapper" [ngClass]="containerClass">
         <app-topbar></app-topbar>
-        <div class="card mt-[108px] !-mb-8 flex text-2xl">
+        <div class="card mt-[55px] !-mb-8 flex text-xl text-white" style="padding: 1rem;border-radius: 0px;background: #159C91;">
             <ul class="flex">
                 <li class="mr-[50px]">
                     <button class="layout-menu-button layout-topbar-action" (click)="layoutService.onMenuToggle()">
                         <i class="pi pi-bars"></i>
                      </button>
                     <a>
-                        <span>
+                        <span class="ml-[30px]">
                         繳納機關 [ 201000000A 中央研究院 ]
                         </span>
                         <span>  [ 00-總局 ]  </span>
@@ -36,7 +36,7 @@ import { InputIcon } from 'primeng/inputicon';
                 </li>
 
             </ul>
-            <ul class="!float-right">
+            <ul class="flex justify-end w-[70%]">
                 <li class="flex">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                         <span class="text-[gold] font-bold mr-[50px]">
