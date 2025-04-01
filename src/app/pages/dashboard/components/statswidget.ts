@@ -9,60 +9,54 @@ import { CommonModule } from '@angular/common';
             <div class="card mb-0">
                 <div class="flex justify-between mb-4">
                     <div>
-                        <span class="block text-muted-color font-medium mb-4">Orders</span>
-                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xl">152</div>
-                    </div>
-                    <div class="flex items-center justify-center bg-blue-100 dark:bg-blue-400/10 rounded-border" style="width: 2.5rem; height: 2.5rem">
-                        <i class="pi pi-shopping-cart text-blue-500 !text-xl"></i>
+                        <span class="block text-muted-color font-medium mb-4">系統核銷通知: </span>
+                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xm">今日累計共25筆</div>
                     </div>
                 </div>
-                <span class="text-primary font-medium">24 new </span>
-                <span class="text-muted-color">since last visit</span>
+                <div class="flex justify-between mb-4">
+                    <div> 
+                        <span class="block text-muted-color font-medium mb-4">核銷完成筆數通知: </span>
+                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xm">本月截止日前累積共6,000筆</div>
+                    </div>
+                </div>
+                <span class="text-muted-color">通知建立時間:</span><br>
+                <span class="text-primary font-medium">115-01-15 05:15:09</span>
             </div>
         </div>
         <div class="col-span-12 lg:col-span-6 xl:col-span-3">
             <div class="card mb-0">
                 <div class="flex justify-between mb-4">
                     <div>
-                        <span class="block text-muted-color font-medium mb-4">Revenue</span>
-                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xl">$2.100</div>
-                    </div>
-                    <div class="flex items-center justify-center bg-orange-100 dark:bg-orange-400/10 rounded-border" style="width: 2.5rem; height: 2.5rem">
-                        <i class="pi pi-dollar text-orange-500 !text-xl"></i>
+                        <span class="block text-muted-color font-medium mb-4">系統核銷通知: </span>
+                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xm">今日累計共25筆</div>
                     </div>
                 </div>
-                <span class="text-primary font-medium">%52+ </span>
-                <span class="text-muted-color">since last week</span>
+                <div class="flex justify-between mb-4">
+                    <div> 
+                        <span class="block text-muted-color font-medium mb-4">核銷完成筆數通知: </span>
+                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xm">本月截止日前累積共6,000筆</div>
+                    </div>
+                </div>
+                <span class="text-muted-color">通知建立時間:</span><br>
+                <span class="text-primary font-medium">115-01-15 05:15:09</span>
             </div>
         </div>
         <div class="col-span-12 lg:col-span-6 xl:col-span-3">
             <div class="card mb-0">
                 <div class="flex justify-between mb-4">
                     <div>
-                        <span class="block text-muted-color font-medium mb-4">Customers</span>
-                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xl">28441</div>
-                    </div>
-                    <div class="flex items-center justify-center bg-cyan-100 dark:bg-cyan-400/10 rounded-border" style="width: 2.5rem; height: 2.5rem">
-                        <i class="pi pi-users text-cyan-500 !text-xl"></i>
+                        <span class="block text-muted-color font-medium mb-4">系統核銷通知: </span>
+                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xm">今日累計共25筆</div>
                     </div>
                 </div>
-                <span class="text-primary font-medium">520 </span>
-                <span class="text-muted-color">newly registered</span>
-            </div>
-        </div>
-        <div class="col-span-12 lg:col-span-6 xl:col-span-3">
-            <div class="card mb-0">
                 <div class="flex justify-between mb-4">
-                    <div>
-                        <span class="block text-muted-color font-medium mb-4">Comments</span>
-                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xl">152 Unread</div>
-                    </div>
-                    <div class="flex items-center justify-center bg-purple-100 dark:bg-purple-400/10 rounded-border" style="width: 2.5rem; height: 2.5rem">
-                        <i class="pi pi-comment text-purple-500 !text-xl"></i>
+                    <div> 
+                        <span class="block text-muted-color font-medium mb-4">核銷完成筆數通知: </span>
+                        <div class="text-surface-900 dark:text-surface-0 font-medium text-xm">本月截止日前累積共6,000筆</div>
                     </div>
                 </div>
-                <span class="text-primary font-medium">85 </span>
-                <span class="text-muted-color">responded</span>
+                <span class="text-muted-color">通知建立時間:</span><br>
+                <span class="text-primary font-medium">115-01-15 05:15:09</span>
             </div>
         </div>`
 })
