@@ -16,16 +16,39 @@ import { InputIcon } from 'primeng/inputicon';
     imports: [CommonModule, AppTopbar, AppSidebar, RouterModule, AppFooter, MenubarModule, IconField, InputIcon],
     template: `<div class="layout-wrapper" [ngClass]="containerClass">
         <app-topbar></app-topbar>
-        <div class="card mt-[108px] !-mb-8">
-            <div class="font-semibold text-xl mb-4">Menubar</div>
-            <p-menubar [model]="nestedMenuItems">
-                <ng-template #end>
-                    <p-iconfield>
-                        <p-inputicon class="pi pi-search" />
-                        <input type="text" pInputText placeholder="Search" />
-                    </p-iconfield>
-                </ng-template>
-            </p-menubar>
+        <div class="card mt-[108px] !-mb-8 flex text-2xl">
+            <ul class="flex">
+                <li class="mr-[50px]">
+                    <a>
+                        <span>
+                        繳納機關 [ 201000000A 中央研究院 ]
+                        </span>
+                        <span>  [ 00-總局 ]  </span>
+                    </a>
+                </li>
+                <li class="mr-[50px]">
+                    <a class="dropdown-toggle" data-hover="dropdown" data-close-others="true">
+                        <span data-pc-section="icon" class="pi pi-bell p-button-icon ng-star-inserted"></span>快訊
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="!float-right">
+                <li class="flex">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <span class="text-[gold] font-bold mr-[50px]">
+                            作業月份 : 113-1&nbsp;
+                        </span>
+                        <span>
+                        Hi ~ 繳納機關測試者 登入時間 114-04-01 11:12:55</span>
+                    </a>
+                    <ul hidden>
+                        <li >
+                            <a><i class="fa fa-sign-out"></i>登出系統</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         <app-sidebar></app-sidebar>
         <div class="layout-main-container">
